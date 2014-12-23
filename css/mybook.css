@@ -1,0 +1,147 @@
+*{ 
+	margin:0;
+	padding:0;
+	outline:none;
+}
+body{
+	font-family: Comic Sans MS, Arial,Verdana,helvetica,sans-serif;
+	font-size:16px;
+}
+h2 {
+	font-family: Comic Sans MS;
+}
+ul{
+	list-style:none;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+button{
+	cursor:pointer;
+}
+sup{
+	color:#f00;
+}
+.inValidMsg{
+	color:#f00;
+	font-size:11px;
+	margin-top:5px;
+}
+.container{
+	background: url("../images/bg-img.jpg") no-repeat;
+	width:100%;
+	min-height:630px;
+	margin:0 auto;
+}
+header{
+	height:120px;
+	background:#2A2B2D;
+}
+.logo{
+	color:#fff;
+	float:left;
+	font-family:Comic Sans MS;
+	font-size:2em;
+	font-weight:bold;
+	margin:15px;
+}
+.loginbr{
+	float:right;
+	padding:7px;
+	margin:0 0px;
+}
+.loginbr li{
+	display:inline;
+}
+.loginbr input[type="text"],.loginbr input[type="password"]{
+	border:none;
+	background:#6B3B0E;
+	margin: 60px 0px 0px 0px;
+	padding:7px;
+	color: #fff;
+}
+.loginbr button{
+	background-color:#63676A;
+	border:none;
+	padding:7px;
+	border-\:5px;
+}
+.coverImg{
+	margin:0 auto;
+	width:987px;
+}
+.coverImg img{
+	width:987px;
+	max-height:100%;
+	margin:8px 0;
+}
+nav{
+	float:left;
+	width:20%;
+}
+nav ul{
+	list-style:none;
+	margin:30px 20px 0 0;
+}
+nav li{
+	background:#FFE1AB;			
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:15px;
+	text-align:center;
+}
+nav li a{
+	color:#D5A476;
+	text-decoration:none;
+	display:block;
+	padding:10px;
+}
+nav li a:hover, nav li.active a{
+	color:#5A3511;
+	}
+nav li:hover, nav li.active{
+	background: #E8C078;
+	cursor:pointer;
+}
+section{
+	float:left;
+	width:100%;
+}
+ul.images {
+  width:990px;
+  height:590px;
+  overflow:hidden;
+  position:relative;
+  margin:20px 150px;
+  padding:0;
+} 
+
+ul.images li {
+  position:absolute;
+  margin:0;
+  padding:10px 0px 20px 0px;
+  left:10px;
+  right:0;
+  list-style:none;
+}
+ 
+ul.images li.show {
+  z-index:500;  
+}
+ 
+ul img {
+  border:none;  
+}
+
+footer{
+	border-top:1px solid #2a2b2d;
+	text-align:center;
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+}

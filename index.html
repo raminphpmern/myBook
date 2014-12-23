@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Book</title>
+		<link rel="stylesheet" type="text/css" href="css/mybook.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<div class="logo"><h2>My Book</h2></div>
+				<ul class="loginbr">
+					<li><input type="text" id="userName" placeHolder="Username" maxLength="8"><sup>*</sup></li>
+					<li><input type="password" id="Password" placeHolder="Password"><sup>*</sup></li>
+					<li><button onclick="logIn()">Sign in</button></li>
+					<div class="inValidMsg" id="inValidMsg"></div>
+				</ul>
+			</header>
+			<div class="gallery">
+			  <ul class="images">
+				<li class="show"><img width="990" src="images/banner-books.jpg" alt="photo_one" /></li>
+				<li><img width="990" src="images/books3.jpg" alt="photo_two" /></li>
+			  </ul>
+			</div>
+			
+			<footer>Talent Improving exercise - OFS</footer>
+		</div>
+	</body>
+	<script src="js/booksource.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/image_fade.js"></script>
+
+</html>

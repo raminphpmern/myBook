@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MY Book</title>
+		<link rel="stylesheet" type="text/css" href="../css/mybook.css">
+		<link rel="stylesheet" type="text/css" href="profile.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<div class="logo"><h2>My Book</h2></div>
+				<ul class="loginbr">
+					<li><button onclick="logOut()">Sign Out</button></li>
+				</ul>
+				
+			</header>
+			<div class="clearfix">
+			<section>
+				<div class="tabbar">
+				<ul>
+					<li><a href="../feed/feed.html">Feed</a></li>
+					<li class="active"><a href="profile.html">Profile</a></li>
+				</ul>
+				</div>
+				<div class="profileblk">
+					<div class="imagePreview">
+						<img src="" id="profileImage">
+					</div>
+					<form id="myform">
+						<ul>
+							<li>
+								<input type="text" id="firstName" placeHolder="Name" maxLength="50"><sup>*</sup>
+							</li>
+							<li>
+								<input type="text" id="age" placeHolder="Age"><sup>*</sup>
+							</li>
+							<li>						
+								<input type="text" id="phone" placeHolder="phone"><sup>*</sup>
+							</li>
+							<li>						
+								<input type="text" id="email" placeHolder="Email"><sup>*</sup>
+							</li>
+							<li>						
+								<textarea id="address" placeHolder="Address"></textarea>
+							</li>
+							<li>
+								<input type='file' accept='image/*' onchange='openFile(event)'>
+							</li>
+							<li>						
+								<input type="button" id="saveProfile" value="Save" class="save">
+							</li>						
+						</ul>
+					</form>
+				</div>
+			</section>
+			</div>
+			<footer>Talent Improving exercise, OFS</footer>
+		</div>
+	</body>
+	<script src="../js/booksource.js"></script>
+</html>

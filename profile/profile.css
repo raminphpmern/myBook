@@ -1,0 +1,76 @@
+.profileblk{
+	min-height:500px;
+}
+.profileblk form{
+	margin:30px;
+}
+.profileblk li{
+	margin-bottom:15px;
+	width:442px;
+}
+
+
+.profileblk input[type="text"],
+.profileblk input[type="number"],
+.profileblk input[type="file"],
+.profileblk textarea{
+	border:1px solid #D3C58E;
+	padding:5px;
+	width:300px;
+}
+.profileblk textarea{
+	height:100px;
+}
+.profileblk input[type="button"]{
+	cursor:pointer;
+}
+.profileblk input[type="button"]:disabled{
+	background:#ccc;
+	cursor:default;
+}
+.profileblk .save{
+	background:#666666;
+	border:none;
+	color:#fff;
+	font-size:15px;
+	padding:5px;
+	float:right;
+	margin-right:10px;
+}
+.imagePreview{
+	background:#fff;
+	border:1px solid #f7f7f7;
+	padding:5px;
+	margin:0 20px 0 0;
+	float:right;
+}
+.imagePreview  img{
+	height:250px;
+	width:250px;
+}
+
+.tabbar {
+
+	background-color: #ccc;
+	border: 1px solid #c0c0c0;
+	margin: 30px 0px 10px 30px;
+}
+.tabbar ul {
+	list-style:none;
+	margin:10px 20px 0 0;
+}
+.tabbar li {
+	display: inline;
+	list-style:none;
+	margin:10px 20px 0 0;
+}
+.tabbar li a {
+	padding: 5px;
+	color: #0000ff;
+	text-decoration: underline;
+}
+.tabbar li a:hover {
+	padding:5px;
+	color: #0000ff;
+	text-decoration: none;
+}

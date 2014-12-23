@@ -1,0 +1,87 @@
+.feedblock{
+	min-height:500px;
+	margin:30px 30px;
+}
+.feedblock .postText{
+	border:1px solid #D3C58E;
+	padding:5px;
+	width:80%;
+}
+.feedblock button{
+	background:#63676a;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	padding:5px;
+	float:right;
+	width:12%;
+}
+.feedlist{
+	margin-top:50px;
+}
+.feedlist li{
+	background:#c0c0c0;
+	margin:20px 0;
+	padding:10px;
+	overflow:hidden;
+	position:relative;
+}
+.feedlist li.alt{
+	background:#666;
+}
+.feedlist .profileImg{
+	border:1px solid #f7f7f7;
+	background:#fff;
+	height:70px;
+	float:left;
+	padding:5px;
+}
+.feedlist .profileImg img{
+	height:70px;
+}
+.feedlist .feedContent{
+	font-size:14px;
+	margin-left:100px;
+}
+.feedlist .feedContent p{
+	height: 67px;
+	vertical-align: middle;
+	display: table-cell;
+}
+.feedlist time{
+	float:right;
+	font-size:12px;
+}
+.feedlist .del{
+	color:#f00;
+	cursor:pointer;
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+.tabbar {
+	float: left;
+	background-color: #ccc;
+	width:95%;
+	border: 1px solid #c0c0c0;
+	margin: 30px 0px 10px 30px;
+}
+.tabbar ul {
+	list-style:none;
+	margin:10px 20px 0 0;
+}
+.tabbar li {
+	display: inline;
+	list-style:none;
+	margin:10px 20px 0 0;
+}
+.tabbar li a {
+	padding: 5px;
+	color: #0000ff;
+	text-decoration: underline;
+}
+.tabbar li a:hover {
+	padding:5px;
+	color: #0000ff;
+	text-decoration: none;
+}
